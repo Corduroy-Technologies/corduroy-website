@@ -1,49 +1,23 @@
-/* eslint-disable no-undef */
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true,
-  },
-  'extends': [
-    'eslint:recommended',
-    'plugin:react/recommended',
-  ],
-  'settings': {
-    'react': {
-      'version': 'detect',
+    "env": {
+        "browser": true,
+        "es2021": true
     },
-  },
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true,
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@next/next/recommended"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
-    'ecmaVersion': 12,
-    'sourceType': 'module',
-  },
-  'plugins': [
-    'react',
-  ],
-  'rules': {
-    'indent': [
-      'error',
-      2,
-      { 'SwitchCase': 1 },
+    "plugins": [
+        "react",
+        "@next"
     ],
-    'linebreak-style': [
-      'error',
-      'unix',
-    ],
-    'quotes': [
-      'error',
-      'single',
-    ],
-    'semi': [
-      'error',
-      'always',
-    ],
-    'comma-dangle': [
-      'error',
-      'only-multiline',
-    ],
-  },
-};
+    "rules": {
+    }
+}
