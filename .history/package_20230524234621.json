@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "predeploy" : "next build",
-    "deploy" : "gh-pages -d /build",
+    "deploy" : "gh-pages -d ./",
     "prettier:fix": "prettier './src/**/*.js' --write",
     "eslint:fix": "eslint ./src --fix",
     "codeStyle:fix": "npm run prettier:fix && npm run eslint:fix",
