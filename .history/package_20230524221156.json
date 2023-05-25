@@ -2,7 +2,6 @@
   "name": "corduroy",
   "author": "corduroy",
   "email": "ann@trycorduroy.com",
-  "homepage": "http://Corduroy-Technologies.github.io/corduroy-website",
   "version": "4.8.0",
   "private": true,
   "scripts": {
@@ -10,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+"deploy" : "gh-pages -d build",
     "prettier:fix": "prettier './src/**/*.js' --write",
     "eslint:fix": "eslint ./src --fix",
     "codeStyle:fix": "npm run prettier:fix && npm run eslint:fix",
