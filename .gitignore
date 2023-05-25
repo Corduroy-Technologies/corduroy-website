@@ -10,7 +10,6 @@
 
 # next.js
 **/.next/
-**/out/
 
 # gatsby.js
 **/.cache
@@ -37,4 +36,4 @@ yarn-error.log*
 .vscode
 
 # history
-.history
+**/.history/
